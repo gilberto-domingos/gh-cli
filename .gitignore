@@ -46,7 +46,7 @@ node_modules/
 npm-debug.log
 
 # Angular CLI temporary files
-dist/
+#dist/
 tmp/
 logs/
 
