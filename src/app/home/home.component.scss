@@ -1,62 +1,69 @@
 * {
     box-sizing: border-box;
-  }
-  
-  .flex-container {
+}
+
+.flex-container {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
-    text-align: center;   
-    font-size: 16px; 
-    text-align: left; 
-    
+    text-align: center;
+    text-align: left;
+}
 
-  }
-  
-  .flex-item {
-    background-color: #f1f1f1;
+.flex-item {
+    background-color: #ffffff;
     padding: 10px;
-    flex: 1; 
-   
-    
-  }  
-  
-  .flex-item:nth-child(2) {
-    background-color:  #f1f1f1;
-  }  
-  
-  .flex-item:nth-child(3) {
-    background-color:  #f1f1f1;
-  }
+    flex: 1;
+}
 
-  @media (max-width: 800px) {
+#it1 {
+    background-color: #f7cc12;
+}
+
+#it2 {
+    background-color: #9fc9eb;
+}
+
+#it3 {
+    background-color: #f7a80d;
+}
+
+@media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
 
 @keyframes colorChange {
     0% {
-        background: linear-gradient(45deg, #ffeb3b, #FF5722FF, #2182cd, #9f03aa,#ff5722);
+        background: linear-gradient(45deg, #ffeb3b, #FF5722FF, #2182cd, #9f03aa, #ff5722);
         background-size: 100% 200%;
     }
-    14.28%, 85.72% {
-        background: linear-gradient(45deg, #2182cd, #9f03aa,#ff5722, #ffeb3b, #b15cd5);
+
+    14.28%,
+    85.72% {
+        background: linear-gradient(45deg, #2182cd, #9f03aa, #ff5722, #ffeb3b, #b15cd5);
         background-size: 120% 200%;
     }
-    28.56%, 71.44% {
+
+    28.56%,
+    71.44% {
         background: linear-gradient(45deg, #2182cd, #9f03aa, #ffeb3b, #ff5722, #b15cd5);
         background-size: 100% 200%;
     }
-    42.84%, 57.16% {
+
+    42.84%,
+    57.16% {
         background: linear-gradient(45deg, #2182cd, #ffeb3b, #9f03aa, #ff5722, #b15cd5);
         background-size: 120% 200%;
     }
-    57.12%, 42.88% {
+
+    57.12%,
+    42.88% {
         background: linear-gradient(45deg, #ffeb3b, #2182cd, #9f03aa, #ff5722, #ff5722);
         background-size: 100% 200%;
     }
+
     100% {
         background: linear-gradient(45deg, #2182cd, #ffeb3b, #9f03aa, #ff5722, #b15cd5);
         background-size: 100% 200%;
@@ -65,17 +72,21 @@
 
 
 .toast-header {
-    flex: 1; /* Distribui o espaço disponível igualmente entre os elementos */
+    flex: 1;
     color: #ffffff;
     text-shadow: 1px 1px 1px #000000;
     animation: colorChange 60s infinite;
-    margin: 0; /* Remova a margem padrão */
+    margin: 0;
 }
 
 .card-link {
     font-weight: bold;
-    color: #ffffff;
+    color: #f7f5f5;
     text-decoration: none;
+}
+
+.card-body {
+    margin-bottom: -5px !important;
 }
 
 .card.bg-secondary.mb-3 {
@@ -94,23 +105,34 @@
     position: relative;
     display: inline-block;
     padding: 5px 10px;
-    border-radius: 8px;    
+    border-radius: 8px;
     color: white;
     text-shadow: 1px 1px 1px #000000;
-    overflow: hidden;    
-    box-shadow: 0px 0px 5px 2px #000000;   
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px #000000;
     background-color: #01b142;
-    border: 1px solid white; 
+    border: 1px solid white;
 }
 
 .btn-whatsapp:hover {
     background-color: #046327;
-    color: white;    
+    color: white;
+}
+
+.click {
+    width: 35px;
+    height: auto;
 }
 
 .plan {
     width: 100%;
     height: auto;
+}
+
+.clients {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 .space-bar {
@@ -119,7 +141,7 @@
 
 
 .contato {
-    color: #ffffff;    
+    color: #ffffff;
     text-shadow: 0px 0px 3px #000000;
     font-weight: bold;
 }
@@ -129,13 +151,13 @@
     position: relative;
     display: inline-block;
     padding: 5px 10px;
-    border-radius: 8px;    
+    border-radius: 8px;
     color: white;
     text-shadow: 1px 1px 1px #000000;
-    overflow: hidden;    
-    box-shadow: 0px 0px 5px 2px #000000;   
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px #000000;
     background-color: #010128;
-    border: 1px solid white;  
+    border: 1px solid white;
 }
 
 .btn-stripe:hover {
