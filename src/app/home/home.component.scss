@@ -1,3 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;   
+    font-size: 16px; 
+    text-align: left; 
+    
+
+  }
+  
+  .flex-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 1; 
+   
+    
+  }  
+  
+  .flex-item:nth-child(2) {
+    background-color:  #f1f1f1;
+  }  
+  
+  .flex-item:nth-child(3) {
+    background-color:  #f1f1f1;
+  }
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
 @keyframes colorChange {
     0% {
         background: linear-gradient(45deg, #ffeb3b, #FF5722FF, #2182cd, #9f03aa,#ff5722);
@@ -27,11 +65,18 @@
 
 
 .toast-header {
+    flex: 1; /* Distribui o espaço disponível igualmente entre os elementos */
     color: #ffffff;
     text-shadow: 1px 1px 1px #000000;
     animation: colorChange 60s infinite;
+    margin: 0; /* Remova a margem padrão */
 }
 
+.card-link {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .card.bg-secondary.mb-3 {
     max-width: 100% !important;
@@ -63,6 +108,15 @@
     color: white;    
 }
 
+.plan {
+    width: 100%;
+    height: auto;
+}
+
+.space-bar {
+    margin-bottom: 10px;
+}
+
 
 .contato {
     color: #ffffff;    
@@ -80,10 +134,8 @@
     text-shadow: 1px 1px 1px #000000;
     overflow: hidden;    
     box-shadow: 0px 0px 5px 2px #000000;   
-    background-color: #000000;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid white; 
+    background-color: #010128;
+    border: 1px solid white;  
 }
 
 .btn-stripe:hover {
