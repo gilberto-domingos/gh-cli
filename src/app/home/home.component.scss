@@ -40,20 +40,12 @@
 
 .flex-container {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
 .flex-item {
-      
     flex: 1;
 }
-
-@media (max-width: 800px) {
-    .flex-container {
-        flex-direction: column;
-    }
-}
-
 
 .toast-header {
     flex: 1;
@@ -85,22 +77,21 @@
     margin: 0 auto !important;
 }
 
-.card-text {   
-    padding: 5px 10px 5px 10px!important;
+.card-text {
+    padding: 5px 10px 5px 10px !important;
     text-align: justify;
     text-overflow: ellipsis;
     white-space: wrap;
-  }
-  
-  .card-text:empty {
+}
+
+.card-text:empty {
     text-align: left;
-  }
+}
 
 .container {
     max-width: 100% !important;
     margin: 0 auto !important;
 }
-
 
 .btn-whatsapp {
     position: relative;
@@ -110,7 +101,7 @@
     color: white;
     text-shadow: 1px 1px 1px #000000;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 1px 1px #000000;
     background-color: #01b142;
     border: 1px solid white;
 }
@@ -148,7 +139,7 @@
     color: white;
     text-shadow: 1px 1px 1px #000000;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 1px 1px #000000;
     background-color: #010128;
     border: 1px solid white;
 }
@@ -158,35 +149,8 @@
     color: white;
 }
 
-
-.responsive-table {
-    display: table;
-    width: 100%;
-}
-
-.table-cell {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 10px;
-    width: 50%;
-}
-
-
-.table-cell img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-}
-
-
-@media (max-width: 768px) {
-    .responsive-table {
-        display: block;
-    }
-
-    .table-cell {
-        display: block;
-        width: 100%;
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
     }
 }
