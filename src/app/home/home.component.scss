@@ -127,6 +127,12 @@
     margin-bottom: 15px;
 }
 
+.iframe {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    background-color: #000000;
+}
+
 .space-bar {
     margin-bottom: 10px;
 }
@@ -167,5 +173,11 @@
 @media (max-width: 800px) {
     .flex-container {
         flex-direction: column;
+    }
+
+    .iframe {
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        background-color: #000000;
     }
 }
