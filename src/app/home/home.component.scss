@@ -149,6 +149,21 @@
     color: white;
 }
 
+.contato {
+    width: 100%;
+    height: auto;
+    color: #f7f5f5;
+    background-color: #000000;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     .flex-container {
         flex-direction: column;
