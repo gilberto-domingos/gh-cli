@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarouselComponent} from "./carousel/carousel.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MenuBarComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
