@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent} from "./carousel/carousel.component";
+import { CokieComponent} from "./cokie/cokie.component";
+import { CokieDialogComponent} from "./cokie-dialog/cokie-dialog.component";
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { CarouselComponent} from "./carousel/carousel.component";
     HomeComponent,
     MenuBarComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    CokieDialogComponent,
+    CokieComponent
   ],
   imports: [
     BrowserModule,
