@@ -1,5 +1,6 @@
 {
   "routes": [
+    "/carousel",
     "/footer",
     "/home",
     "/menu-bar"
