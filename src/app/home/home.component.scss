@@ -124,10 +124,6 @@
   background-color: #000000;
 }
 
-.space-bar {
-  margin-bottom: 10px;
-}
-
 .btn-stripe {
   position: relative;
   display: inline-block;
@@ -161,7 +157,7 @@
   text-align: center;
 }
 
-/* Media Queries para dispositivos móveis */
+
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -169,36 +165,36 @@
 
   .iframe {
     max-width: 100% !important;
-    margin: 0 auto !important;
+    margin: 0 auto;
     background-color: #000000;
   }
 
-  /* Ajuste do tamanho da fonte para dispositivos móveis */
+
   body {
-    font-size: 14px; /* Tamanho base de fonte menor */
+    font-size: 14px;
   }
 
   h3 {
-    font-size: 1.2rem; /* Ajuste dos títulos */
+    font-size: 1.2rem;
   }
 
   h5 {
-    font-size: 1rem; /* Ajuste dos subtítulos */
+    font-size: 1rem;
   }
 
   h6 {
-    font-size: 0.875rem; /* Ajuste dos textos menores */
+    font-size: 0.875rem;
   }
 
   .card-text, .card-title {
-    font-size: 0.875rem; /* Ajuste dos textos das cartas */
+    font-size: 0.875rem;
   }
 
   .btn-whatsapp, .btn-stripe {
-    font-size: 0.875rem; /* Ajuste dos textos dos botões */
+    font-size: 0.875rem;
   }
 
   .toast-header, .toast-header-functs {
-    font-size: 0.875rem; /* Ajuste dos textos das toasts */
+    font-size: 0.875rem;
   }
 }
