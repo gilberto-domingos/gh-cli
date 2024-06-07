@@ -1,8 +1,19 @@
+
 .container {
+  display: flex;
   position: relative;
+  justify-content: center;
   width: 320px;
   margin: 0px auto 0 auto;
   perspective: 1000px;
+  align-items: center;
+  height: auto;
+}
+
+.carousel-card {
+  width: 90%;
+  max-width: 95%;
+  box-sizing: border-box;
 }
 
 .carousel {
@@ -67,3 +78,4 @@ span {
     transform: rotateY(-360deg);
   }
 }
+
