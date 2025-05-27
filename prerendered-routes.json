@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/carousel",
+    "/cokie",
+    "/dialog",
+    "/footer",
+    "/home",
+    "/menu-bar"
+  ]
+}
